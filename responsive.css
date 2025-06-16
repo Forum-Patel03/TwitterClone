@@ -1,0 +1,172 @@
+ @media (max-height: 720px) {
+     .sidebar-left {
+         overflow: auto;
+         overflow-x: hidden;
+         scrollbar-width: 20px;
+         scrollbar-color: #3c3c44 rgb(21, 21, 30);
+         margin-left: -16px;
+
+     }
+
+     .sidebar-left::-webkit-scrollbar {
+         width: 20px;
+     }
+
+     .sidebar-left::-webkit-scrollbar-track {
+         background: transparent;
+     }
+
+     .sidebar-left::-webkit-scrollbar-thumb {
+         background-color: rgb(29, 28, 28);
+         border-radius: 10px;
+         border: 1px solid transparent;
+     }
+
+     .sidebar-left::-webkit-scrollbar-thumb:hover {
+         background: #3c3c3c;
+     }
+ }
+
+ @media (max-width: 1016px) {
+
+     .sidebar-left {
+         display: flex;
+         flex-direction: column;
+         left: 0;
+         position: fixed;
+         z-index: 100;
+         padding-left: 25px
+     }
+
+     .other,
+     .home,
+     .account-info,
+     .acc-more,
+     .sidebar-right {
+         display: none;
+     }
+
+     .post-button {
+         width: 52px;
+         height: 50px;
+         margin-left: 5px;
+     }
+
+     .ac-profile {
+         margin-bottom: 90px;
+     }
+
+     .con .material-symbols-outlined,
+     .con-active .material-symbols-outlined {
+         font-size: 35px;
+         padding-left: 3px;
+     }
+
+     .con,
+     .con-active {
+         margin-left: 4px;
+         margin-bottom: 0px;
+         margin-top: 6px;
+         padding: 0px 0px 0px 4px;
+         width: 45px;
+     }
+
+     .x-logo {
+         padding-left: 5px;
+     }
+
+     .feed {
+         margin-left: -36px;
+     }
+
+     .top {
+         position: absolute;
+     }
+
+     .side_search {
+         position: absolute;
+     }
+
+     .black {
+         position: absolute;
+     }
+
+     .post-button {
+         margin-right: 0px;
+     }
+
+     .account-info {
+         margin-right: 0px;
+     }
+ }
+
+ @media (min-width: 1017px) and (max-width: 1200px) {
+     .sidebar-left {
+         display: flex;
+         flex-direction: column;
+         left: 0;
+         position: fixed;
+         z-index: 100;
+         padding-left: 25px
+     }
+
+     .other,
+     .home,
+     .account-info,
+     .acc-more {
+         display: none;
+     }
+
+     .post-button {
+         width: 52px;
+         height: 50px;
+         margin-left: 5px;
+     }
+
+     .ac-profile {
+         margin-bottom: 90px;
+     }
+
+     .con .material-symbols-outlined,
+     .con-active .material-symbols-outlined {
+         font-size: 35px;
+         padding-left: 3px;
+     }
+
+     .con,
+     .con-active {
+         margin-left: 4px;
+         margin-bottom: 0px;
+         margin-top: 6px;
+         padding: 0px 0px 0px 4px;
+         width: 45px;
+     }
+
+     .x-logo {
+         padding-left: 5px;
+     }
+
+     .feed {
+         margin-left: -36px;
+     }
+
+     .top {
+         position: absolute;
+     }
+
+     .side_search {
+         position: absolute;
+     }
+
+     .black {
+         position: absolute;
+     }
+
+     .post-button {
+         margin-right: 0px;
+     }
+
+     .account-info {
+         margin-right: 0px;
+     }
+ }
