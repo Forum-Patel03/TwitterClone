@@ -33,22 +33,15 @@
     .sidebar-left {
         display: flex;
         flex-direction: column;
-        position: fixed;
         left: 0;
-        top: 0;
-        width: 60px;
-        /* 👈 Fixed width */
-        padding-left: 0;
-        /* 👈 Remove this to eliminate extra space */
+        position: fixed;
         z-index: 100;
-        background-color: black;
-        height: 100vh;
+        padding-left: 45px;
+        width: 90px;
     }
 
     html,
     body {
-        margin: 0;
-        padding: 0;
         overflow-x: hidden;
     }
 
@@ -103,11 +96,8 @@
     }
 
     .feed {
-        margin-left: 60px;
-        /* 👈 Match the width of sidebar-left */
-        width: calc(100% - 60px);
-        /* 👈 Prevents extra right-side space */
-        box-sizing: border-box;
+        margin-left: 0;
+        width: 100%;
     }
 
     .top {
