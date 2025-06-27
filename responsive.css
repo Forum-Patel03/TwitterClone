@@ -36,7 +36,8 @@
         left: 0;
         position: fixed;
         z-index: 100;
-        padding-left: 63px;
+        padding-left: 45px;
+        width: 90px;
     }
 
     html,
@@ -86,7 +87,7 @@
     }
 
     .notifications-count {
-        left: 90px;
+        left: 75px;
         top: 170px;
     }
 
