@@ -1,0 +1,151 @@
+.sidebar-left {
+    border-right: 1px solid #363636;
+    position: fixed;
+    background-color: black;
+    height: 100vh;
+    z-index: 200;
+}
+
+.x {
+    height: 50px;
+    width: 50px;
+    margin-top: 18px;
+    margin-left: 5px;
+    border-radius: 30px;
+}
+
+.x:hover {
+    background-color: #1e1e1e;
+    cursor: pointer;
+}
+
+.con-active {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    height: 50px;
+    padding-left: 8px;
+}
+
+.con:hover,
+.con-active:hover,
+.account:hover {
+    background-color: #1e1e1e;
+    cursor: pointer;
+}
+
+.con-active .material-symbols-outlined {
+    margin-top: 2px;
+    margin-right: 15px;
+    font-size: 34px;
+    color: white;
+}
+
+.home {
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+.con {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    height: 50px;
+    padding-left: 8px;
+}
+
+.con .material-symbols-outlined {
+    margin-top: 2px;
+    margin-right: 15px;
+    font-size: 34px;
+    color: white;
+}
+
+.other {
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+.notifications {
+    position: relative;
+}
+
+.notifications-count {
+    position: absolute;
+    color: white;
+    background-color: rgb(25, 127, 244);
+    height: 16px;
+    width: 13px;
+    font-size: 12px;
+    border-radius: 9px;
+    padding-left: 6px;
+    padding-top: 2px;
+    left: 25px;
+    top: 175px;
+}
+
+.grok {
+    height: 80px;
+    margin-left: -15px;
+}
+
+.x-logo {
+    height: 40px;
+    padding-right: 13px;
+    margin-left: -6px;
+}
+
+.post-button {
+    height: 52px;
+    width: 210px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background-color: rgba(250, 250, 250, 0.964);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.account {
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    margin-top: 20px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.account img {
+    height: 40px;
+    margin-right: 8px;
+}
+
+.account-info {
+    margin-right: 30px;
+}
+
+.account-info h4 {
+    margin: 0px;
+    font-size: 15px;
+    color: white;
+    padding-top: 5px;
+}
+
+.account-info h5 {
+    margin: 0px;
+    padding-left: 1px;
+    color: rgb(173, 173, 173);
+    padding-top: 3px;
+}
+
+.acc-more .material-symbols-outlined {
+    font-size: 25px;
+    color: white;
+}

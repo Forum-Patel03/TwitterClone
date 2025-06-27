@@ -1,0 +1,444 @@
+.feed {
+    display: flex;
+    flex-direction: column;
+    margin-left: 260px;
+    margin-bottom: 70px;
+}
+
+.top {
+    display: flex;
+    border: 1px solid #363636;
+    position: fixed;
+    width: 597px;
+    background-color: black;
+    z-index: 90;
+}
+
+.header1 {
+    color: white;
+    height: 35px;
+    width: 300px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 110px;
+    padding-top: 15px;
+    text-underline-offset: 16px;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgb(0, 115, 255);
+}
+
+.header2 {
+    color: rgb(107, 107, 107);
+    height: 35px;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 110px;
+    padding-top: 15px;
+}
+
+.header1:hover,
+.header2:hover {
+    background-color: rgb(26, 26, 26);
+    cursor: pointer;
+}
+
+.first-mid {
+    display: flex;
+    border: 1px solid #363636;
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 50px;
+    width: 577px;
+}
+
+.profile {
+    height: 40px;
+    width: 40px;
+}
+
+.profile:hover {
+    cursor: pointer;
+}
+
+.input {
+    font-size: 22px;
+    border: none;
+    margin-left: 15px;
+    margin-top: 8px;
+    background-color: black;
+    color: grey;
+    width: 420px;
+}
+
+.input:focus {
+    outline: none;
+    border: none;
+}
+
+.fm-button {
+    margin-top: 55px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 35px;
+    width: 65px;
+    background-color: grey;
+    color: black;
+    border: none;
+    border-radius: 20px;
+}
+
+.tweet1 {
+    border: 1px solid #363636;
+    height: 436px;
+    padding-left: 15px;
+    padding-top: 15px;
+    display: flex;
+    width: 582px;
+}
+
+.profil-con {
+    position: relative;
+}
+
+.profile-tooltip {
+    position: absolute;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    width: 260px;
+    height: 190px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px grey;
+    opacity: 0;
+    transition: opacity 0.30s;
+    pointer-events: none;
+}
+
+.profil-con:hover .profile-tooltip {
+    opacity: 1;
+    
+}
+
+.row1 {
+    display: flex;
+}
+
+.row1 .tool-img {
+    border-radius: 30px;
+    margin-right: 120px;
+    height: 60px;
+    width: 60px;
+}
+
+.row1 button {
+    height: 38px;
+    width: 85px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.row2 {
+    display: flex;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.row2 p {
+    margin-top: 0px;
+    margin-right: 2px;
+    font-weight: bold;
+}
+
+.row2 .veri {
+    height: 18px;
+}
+
+.profile-tooltip h6 {
+    color: rgb(126, 126, 131);
+    font-size: 14px;
+    font-weight: 100;
+    margin: 2px 0px 15px 0px;
+}
+
+.profile-tooltip h4 {
+    margin: 2px 0px 15px 0px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.row3 {
+    display: flex;
+    height: 20px;
+}
+
+.row3 h4 {
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 4px;
+}
+
+.row3 h6 {
+    margin-right: 20px;
+}
+.profile-tooltip .ps{
+    margin-top: 10px;
+    width: 260px;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+.profil-con img {
+    height: 40px;
+}
+
+.img-pro {
+    height: 20px;
+    border-radius: 20px;
+}
+
+.img-pro:hover {
+    cursor: pointer;
+}
+
+.info {
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.name {
+    display: flex;
+    height: 20px;
+}
+
+.name h4 {
+    margin-top: 0px;
+    color: white;
+}
+.name{
+    position: relative;
+}
+.name:hover .profile-tooltip{
+    opacity: 1;
+}
+.name h4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.name:hover{
+    cursor: pointer;
+}
+.veri {
+    height: 18px;
+    width: 19px;
+    margin-right: 5px;
+    margin-left: 2px;
+}
+
+.name .name_time {
+    margin-top: 0px;
+    font-size: 15px;
+    color: grey;
+}
+
+.info p {
+    color: white;
+}
+
+.detail {
+    margin-top: 0px;
+    margin-bottom: 9px;
+}
+
+.plane {
+    height: 300px;
+    width: 250px;
+    padding-left: 100px;
+}
+
+.icons {
+    display: flex;
+    padding-top: 10px;
+
+}
+
+.comment .material-symbols-outlined:hover,
+.graph .material-symbols-outlined:hover,
+.b .material-symbols-outlined:hover,
+.b1 .material-symbols-outlined:hover {
+    color: #137dc3;
+    cursor: pointer;
+}
+
+.icons {
+    position: relative;
+}
+
+.reply-tooltip {
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    background-color: rgb(86, 95, 134);
+    font-weight: bold;
+    height: 15px;
+    padding-top: 5px;
+    width: 33px;
+    padding-left: 3px;
+    left: -5px;
+    bottom: -30px;
+    border-radius: 2px;
+    opacity: 0;
+}
+
+.comment:hover .reply-tooltip {
+    opacity: 1;
+}
+
+.repost-tooltip {
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    background-color: rgb(86, 95, 134);
+    font-weight: bold;
+    height: 15px;
+    padding-top: 5px;
+    width: 40px;
+    padding-left: 3px;
+    left: 105px;
+    bottom: -30px;
+    border-radius: 2px;
+    opacity: 0;
+}
+
+.repeat:hover .repost-tooltip {
+    opacity: 1;
+}
+
+.like-tooltip {
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    background-color: rgb(86, 95, 134);
+    font-weight: bold;
+    height: 15px;
+    padding-top: 5px;
+    width: 28px;
+    padding-left: 5px;
+    left: 230px;
+    bottom: -30px;
+    border-radius: 2px;
+    opacity: 0;
+}
+
+.like:hover .like-tooltip {
+    opacity: 1;
+}
+
+.view-tooltip {
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    background-color: rgb(86, 95, 134);
+    font-weight: bold;
+    height: 15px;
+    padding-top: 5px;
+    width: 30px;
+    padding-left: 5px;
+    left: 345px;
+    bottom: -30px;
+    border-radius: 2px;
+    opacity: 0;
+}
+
+.graph:hover .view-tooltip {
+    opacity: 1;
+}
+
+.bookmark-tooltip {
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    background-color: rgb(86, 95, 134);
+    font-weight: bold;
+    height: 15px;
+    padding-top: 5px;
+    width: 60px;
+    padding-left: 5px;
+    left: 440px;
+    bottom: -30px;
+    border-radius: 2px;
+    opacity: 0;
+}
+
+.b:hover .bookmark-tooltip {
+    opacity: 1;
+}
+
+.share-tooltip {
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    background-color: rgb(86, 95, 134);
+    font-weight: bold;
+    height: 15px;
+    padding-top: 5px;
+    width: 35px;
+    padding-left: 5px;
+    left: 470px;
+    bottom: -30px;
+    border-radius: 2px;
+    opacity: 0;
+}
+
+.b1:hover .share-tooltip {
+    opacity: 1;
+}
+
+.repeat .material-symbols-outlined:hover {
+    color: rgb(6, 189, 6);
+    cursor: pointer;
+}
+
+.like .material-symbols-outlined:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.icons .p {
+    margin: 0px;
+    padding-right: 70px;
+    padding-left: 5px;
+    font-size: 14px;
+    color: grey;
+}
+
+.b .material-symbols-outlined {
+    font-size: 22px;
+    margin-right: 4px;
+}
+
+.icons .material-symbols-outlined {
+    color: grey;
+    font-size: 19px;
+}
+
+.icons .end {
+    margin: 0px;
+    padding-right: 50px;
+    padding-left: 5px;
+    font-size: 14px;
+    color: grey;
+}
+
+.rocket {
+    height: 350px;
+    padding-left: 60px;
+}
